@@ -1,5 +1,9 @@
 # nuxtjs-snipcart-netlifycms
 
+## Pre Build
+
+Make sure you have a Snipcart API key available before running, if you don't have one then you can register for a free [Snipcart](https://snipcart.com/) account and you'll find one in your Snipcart dashboard. Add this API key in your .env file at the root of the project or add it directly in the nuxt.config.js file.
+
 ## Build Setup
 
 ```bash

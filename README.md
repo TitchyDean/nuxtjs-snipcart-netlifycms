@@ -1,4 +1,4 @@
-# one-page-ecommerce
+# nuxtjs-snipcart-netlifycms
 
 ## Build Setup
 

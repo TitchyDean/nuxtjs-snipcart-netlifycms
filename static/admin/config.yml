@@ -1,0 +1,26 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: 'products'
+    label: 'Products'
+    folder: 'assets/content/products'
+    create: true
+    slug: '{{productTitle}}'
+    format: 'json'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Full Title', name: 'productTitle', widget: 'string' }
+      - { label: 'Short Title (for display card)', name: 'productShortTitle', widget: 'string' }
+      - { label: 'Description', name: 'productDesc', widget: 'markdown' }
+      - { label: 'Type', name: 'productType', widget: 'string' }
+      - { label: 'Image', name: 'productImage', widget: 'image', required: true }
+      - { label: 'Price', name: 'productPrice', widget: 'string' }
+      - { label: 'ID', name: 'productID', widget: 'string' }
+      - { label: 'URL (location where product lives)', name: 'productURL', widget: 'string' }
+      - { label: 'Weight (in grams, i.e 14)', name: 'productWeight', widget: 'string' }

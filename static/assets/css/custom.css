@@ -1,0 +1,59 @@
+/* Body */
+body {
+    background-color: #f8f9fa!important;
+}
+
+/* Footer */
+footer a {
+    color: #FFA62B;
+}
+footer a:hover {
+    color: #DA7422;
+}
+
+/* Colours */
+.dark-bg {
+    background-color: #12130F!important;
+}
+.blue-bg {
+    background-color: #16697A!important;
+}
+.red-bg {
+    background-color: #DA7422!important;
+}
+.yellow-bg {
+    background-color: #FFA62B!important;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-color: #DA7422!important;
+    border-radius: 0px!important;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #DA7422!important;
+    border-color: #DA7422!important;
+}
+.btn-success {
+    background-color: #16697A!important;
+    border-color: #16697A!important;
+}
+
+/* Card */
+.product-card {
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important;
+    border: 0px!important;
+}
+.product-card h2 {
+    font-size: 1.5rem;
+}
+
+/* Alert */
+.alert {
+    position: fixed!important;
+    bottom: 5px;
+    left:2%;
+    width: 96%;
+}
